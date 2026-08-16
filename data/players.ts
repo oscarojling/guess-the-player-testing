@@ -1,0 +1,28 @@
+import { PlayerType } from "@/types/player";
+
+export const players: PlayerType[] = [
+  { name: "Jacob Widell Zetterström", image: "JacobWidellZetterström.jpg" },
+  { name: "Viktor Johansson", image: "ViktorJohansson.jpg" },
+  { name: "Kristoffer Nordfeldt", image: "KristofferNordfeldt.jpg" },
+  { name: "Gustaf Lagerbielke", image: "GustafLagerbielke.jpg" },
+  { name: "Victor Lindelöf", image: "VictorLindelöf.jpg" },
+  { name: "Isak Hien", image: "IsakHien.jpg" },
+  { name: "Gabriel Gudmundsson", image: "GabrielGudmundsson.jpg" },
+  { name: "Daniel Svensson", image: "DanielSvensson.jpg" },
+  { name: "Hjalmar Ekdal", image: "HjalmarEkdal.jpg" },
+  { name: "Carl Starfelt", image: "CarlStarfelt.jpg" },
+  { name: "Elliot Stroud", image: "ElliotStroud.jpg" },
+  { name: "Lucas Bergvall", image: "LucasBergvall.jpg" },
+  { name: "Benjamin Nygren", image: "BenjaminNygren.jpg" },
+  { name: "Jesper Karlström", image: "JesperKarlström.jpg" },
+  { name: "Yasin Ayari", image: "YasinAyari.jpg" },
+  { name: "Alexander Bernhardsson", image: "AlexanderBernhardsson.jpg" },
+  { name: "Besfort Zeneli", image: "BesfortZeneli.jpg" },
+  { name: "Alexander Isak", image: "AlexanderIsak.jpg" },
+  { name: "Anthony Elanga", image: "AnthonyElanga.jpg" },
+  { name: "Viktor Gyökeres", image: "ViktorGyökeres.jpg" },
+  { name: "Gustaf Nilsson", image: "GustafNilsson.jpg" },
+  { name: "Taha Ali", image: "TahaAli.jpg" },
+  { name: "Mattias Svanberg", image: "MattiasSvanberg.jpg" },
+  { name: "Herman Johansson", image: "HermanJohansson.jpg" },
+];

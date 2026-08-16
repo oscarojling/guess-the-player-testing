@@ -1,36 +1,26 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Guess the Player Project
 
-## Getting Started
+A flashcard quiz using Swedens World Cup 2026 squad, where you can guess each player before revealing their name. This project was built for practicing testing.
 
-First, run the development server:
+Header & Footer: Shows the main title, subtitle, and my name.
+Start Screen: Shows a single "Start" button before the game begins.
+Progress: Shows how far through the 24 players the user is ("Player X of 24").
+Flashcard: Shows one player's photo at a time, with a "Reveal" button. Clicking Reveal shows the players name and swaps in a "Next" button. A "Previous" button appears starting from the second player.
+Finished Screen: After all 24 players, shows a grid of every players photo (each linking to their Wikipedia page) along with a "Restart" button that resets the quiz back to the first player.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Screenshots
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Start screen — only the Start button is shown.
+![Start screen](public/images/start-screen.png)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Flashcard, hidden — first players photo with the Reveal button.
+![Flashcard hidden](public/images/flashcard-hidden.png)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Flashcard, revealed — name shown, Next button appears.
+![Flashcard revealed](public/images/flashcard-revealed.png)
 
-## Learn More
+Flashcard, second player — Previous and Next both visible.
+![Flashcard with Previous and Next](public/images/flashcard-previous-next.png)
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Finished screen — grid of all players with the Restart button above.
+![Finished screen](public/images/finished-screen.png)
