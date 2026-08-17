@@ -11,16 +11,16 @@ Finished Screen: After all 24 players, shows a grid of every players photo (each
 ## Screenshots
 
 Start screen — only the Start button is shown.
-![Start screen](public/images/start-screen.png)
+![Start screen](public/screenshots/start-screen.png)
 
 Flashcard, hidden — first players photo with the Reveal button.
-![Flashcard hidden](public/images/flashcard-hidden.png)
+![Flashcard hidden](public/screenshots/flashcard-hidden.png)
 
 Flashcard, revealed — name shown, Next button appears.
-![Flashcard revealed](public/images/flashcard-revealed.png)
+![Flashcard revealed](public/screenshots/flashcard-revealed.png)
 
 Flashcard, second player — Previous and Next both visible.
-![Flashcard with Previous and Next](public/images/flashcard-previous-next.png)
+![Flashcard with Previous and Next](public/screenshots/flashcard-previous-next.png)
 
 Finished screen — grid of all players with the Restart button above.
-![Finished screen](public/images/finished-screen.png)
+![Finished screen](public/screenshots/finished-screen.png)
